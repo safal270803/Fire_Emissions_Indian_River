@@ -1,19 +1,38 @@
-# macOS junk
+# macOS metadata
 .DS_Store
-data/.DS_Store
-data/raw/.DS_Store
+**/.DS_Store
 
-# Jupyter checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 
 # Python cache & virtual environments
 __pycache__/
 *.py[cod]
+*$py.class
 .env
-.venv
+.venv/
+env/
+venv/
 
-# Intermediate large data dumps
-data/processed/
+# Earth Engine credentials cache
+.config/
+
+# Heavy Satellite & Spatial Data Formats
+*.grib
+*.grib2
+*.grb
+*.nc
+*.tif
+*.tiff
+*.hdf
+*.h5
+*.csv
+*.zip
+*.tar.gz
 *.gpkg-shm
 *.gpkg-wal
+
+# Project Data & Output Dumps
+data/
+outputs/
