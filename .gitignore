@@ -14,6 +14,7 @@ __pycache__/
 .venv/
 env/
 venv/
+.yml
 
 # Earth Engine credentials cache
 .config/
